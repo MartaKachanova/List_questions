@@ -33,7 +33,7 @@ return (
       {buttons.map((item) => (
           <button className="dropbtn" 
           // onClick={buttonColor} style={style}
-          > <a href="">{item.value} </a>
+          > <span>{item.value}</span>
           </button>
         ))} 
     </div>
