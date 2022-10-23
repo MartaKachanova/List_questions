@@ -1,23 +1,12 @@
-button span {
-    color: rgb(247, 246, 250);
-    padding: 10px 10px;
-    text-decoration: none;
-    display: block;
+.question_text{
+    padding: 5px 0;
+    width: 550px;
+    text-align: justify;
+    padding-bottom: 10px; 
 }
-.status{
+.btn_status{
+    padding: 10px 10px;
     display: flex;
-    justify-content: space-between; 
-}
-.dropbtn {
-background-color:rgb(74, 70, 70);
-   display: flex;
-    border: none;
-    cursor: pointer;
-   
-}
-.questions{
-    padding: 10px 10px 10px 10px;
-}
-.status{
-    padding: 10px 10px;
+    justify-content: start;
+    gap: 15px;
 }

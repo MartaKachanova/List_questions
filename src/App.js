@@ -1,13 +1,19 @@
 import "./App.css";
 import Questions from "./components/Questions";
-import { buttonList, data } from "./data/data";
+import { data } from "./data/data";
 
 function App() {
+  const listQuestions = data.map((item, i) => {
+    return (
+      <li key={i}>
+        <Questions question={item.question} />
+      </li>
+    );
+  });
+
   return (
     <div className="wrapper">
-      <div className="listQuestions">
-        <Questions items={data} buttons={buttonList}></Questions>
-      </div>
+      <ol>{listQuestions}</ol>
     </div>
   );
 }
