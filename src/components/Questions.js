@@ -1,7 +1,6 @@
 import "./Questions.css";
 import { useState } from "react";
 import { buttonList } from "../data/data";
-import "../App";
 
 function Questions({ question }) {
   let [colorBg, setColor] = useState({ btnBg: " " });
